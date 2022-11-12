@@ -1,6 +1,6 @@
 name: Build and tests our eshop
 
-on:
+on:   # sekce kdy se ma poustet
   workflow_dispatch:
   push:
 
