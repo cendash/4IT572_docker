@@ -1,13 +1,13 @@
 FROM node:10
 
-COPY . .                    # vse z rootu
+COPY . .
 
 RUN npm install \ 
- && npm run build           # Pousti prikazy na OS image
+ && npm run build
 
-EXPOSE 3000                 # otevreme port
+EXPOSE 3000
 
-ENTRYPOINT npm run start    # nebo CMD
+ENTRYPOINT npm run start
 
 
 
